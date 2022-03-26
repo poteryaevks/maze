@@ -58,7 +58,7 @@ QGraphicsRectItem* MazeGraphicsScene::addRect(qreal x, qreal y, qreal w, qreal h
     //    return nullptr;
     //}
     //else{
-    auto newItem = QGraphicsScene::addRect(x, y, w, h, pen, brush);
+    return QGraphicsScene::addRect(x, y, w, h, pen, brush);
     //     m_rects << newItem;
     //     return newItem;
     // }
